@@ -9,10 +9,10 @@
 " - document this file
 " - move gvim-specific diretove to .gvimrc
 
+set nocompatible
 execute pathogen#infect()
 execute pathogen#helptags()
 
-set nocompatible
 set background=dark
 set encoding=utf-8
 
